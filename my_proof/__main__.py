@@ -21,7 +21,7 @@ def load_config() -> Dict[str, Any]:
     if env == 'production':
         dlp_id = 0
     elif env == 'staging':
-        dlp_id = 0
+        dlp_id = 31
 
     config = {
         'dlp_id': dlp_id, 
